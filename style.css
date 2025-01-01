@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1707162796436-e716e46e7e49?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav ul{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+#overlay{ 
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(3, 65, 146, 0.185); */
+}
+
+.text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    padding: 0 10vw;
+}
+
+.righttxt{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+
+.righttxt p{
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.text h1{
+    font-size: 5vw;
+    color: white;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    height: 40%;
+    /* background-color: black; */
+    background-image: url(https://images.unsplash.com/photo-1707132296769-c72a4d7d4e60?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#bottom img{
+    border: 2px solid yellow;
+    position: relative;
+}
+
+
+footer{
+    background-color: black;
+
+}
+
+#icons{
+    height: 10vh;
+    width: 100%;
+
+}
+#icons i{
+    font-size: 5vh;
+    padding: 1vh 6vw;
+    color: white;
+}
+
+
+footer {
+    background-color: rgb(53, 52, 52);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border: 2px solid rgba(206, 174, 236, 0.952);
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+
+
